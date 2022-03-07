@@ -1,0 +1,182 @@
+        body {
+            margin: 0;
+            font-family: 'Roboto' sans-serif;
+        }
+        
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            background-color: #1F2937;
+            color: white;
+            margin: 0px;
+            padding: 20px 200px;
+        }
+        
+        ul {
+            display: flex;
+            margin: 0;
+            font-size: 24px;
+            list-style-type: none;
+            gap: 25px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        .header-button {
+            border: none;
+            border-radius: 8px;
+            background-color: #3882F6;
+            color: white;
+            font-size: 18px;
+            padding: 8px 24px;
+            width: 120px;
+        }
+        
+        .header-main {
+            display: flex;
+            justify-content: space-between;
+            background-color: #1F2937;
+            padding: 100px 200px;
+        }
+        
+        .hero {
+            font-size: 48px;
+            font-weight: bolder;
+            color: #F9FAF8;
+            margin: 0px;
+        }
+        
+        .logo {
+            font-size: 26px;
+            font-weight: 900;
+            color: #F9FAF8;
+        }
+        
+        .initial {
+            margin: 0px;
+            padding: 5px;
+        }
+        
+        a,
+        .initial,
+        p {
+            font-size: 20px;
+            color: #E5E7EB;
+        }
+        
+        .right-header {
+            flex-shrink: 0;
+            width: 50%;
+        }
+        
+        .image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: grey;
+            color: #F9FAF8;
+            height: 220px;
+            width: 480px;
+        }
+        
+        .info {
+            color: #1F2937;
+            font-size: 36px;
+            font-weight: 900;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .cards-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 80px;
+        }
+        
+        .card {
+            border: 5px solid #3882F6;
+            border-radius: 10px;
+            width: 160px;
+            height: 160px;
+        }
+        
+        .card-wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            max-width: 180px;
+            padding: 0px 20px;
+        }
+        
+        .quote {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #e5e7eb;
+            color: #1f2937;
+            font-size: 36px;
+            padding: 80px 250px;
+        }
+        
+        .attribute {
+            display: flex;
+            justify-content: flex-end;
+            color: #1f2937;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+        
+        .secondary {
+            color: #1f2937;
+            font-size: 36px;
+            flex-direction: column;
+        }
+        
+        .marketing {
+            padding: 80px 200px;
+        }
+        
+        .marketing-wrap {
+            background-color: #3882F6;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 10px;
+        }
+        
+        .statements {
+            display: flex;
+            flex-direction: column;
+            padding: 50px 0px;
+            color: white;
+        }
+        
+        .call {
+            font-size: 24px;
+        }
+        
+        .marketing-button {
+            background-color: #3882F6;
+            border-radius: 8px;
+            border-color: white;
+            padding: 8px 24px;
+            width: 120px;
+        }
+        
+        .footer {
+            color: #F9FAF8;
+            background-color: #1F2937;
+            text-align: center;
+            font-size: 18px;
+            padding: 30px;
+        }
+        
+        h2,
+        h3 {
+            color: white;
+        }
